@@ -5,6 +5,7 @@
     --footer-bg: rgba(0, 0, 0, 1);
     --button-bg: rgba(0, 97, 255, 1);
     --designit-bg: rgba(162, 211, 155, 1);
+    --designit-grey: rgba(245, 245, 245, 1);
     --asu-bg: rgba(97, 8, 43, 1);
     --uf-bg: rgba(0, 147, 206, 1);
     --topps-bg: rgba(255, 28, 28, 1);
@@ -187,6 +188,10 @@ nav ul li:last-child {
 
     #topps {
         background-color: var(--topps-bg);
+    }
+
+    #designit-grey {
+        background-color: var(--designit-grey);
     }
 
     #wbr {
