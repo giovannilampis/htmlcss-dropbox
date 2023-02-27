@@ -132,11 +132,35 @@ nav ul li:last-child {
 
     .card-plan {
         width: calc((100% - 4rem) / 3);
-        border: 1px solid lightgrey;
     }
 
     .card-plan:first-child {
         border-bottom: 1px solid lig;
+    }
+
+    .border-grey {
+        border: 1px solid lightgrey;
+    }
+
+    .bottom-grey {
+        border-bottom: 1px solid lightgrey;
+        text-align: center;
+    }
+
+    .btn-light {
+        background-color: var(--white);
+        color: lightgrey;
+        padding: 0.5rem 0.7rem;
+        text-decoration: none;
+    }
+
+    .partner-text {
+        padding: 3rem 2rem;
+    }
+
+    .partner-p {
+        color: lightgrey;
+        padding: 2rem 0;
     }
 
 /* FOOTER */
