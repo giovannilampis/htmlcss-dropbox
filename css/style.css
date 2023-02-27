@@ -130,7 +130,7 @@ nav ul li:last-child {
         background-color: var(--white);
     }
 
-    .card-plan {
+    .card {
         width: calc((100% - 4rem) / 3);
     }
 
