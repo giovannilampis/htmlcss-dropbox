@@ -55,8 +55,16 @@ img {
     justify-content: space-between;
 }
 
+.jc-start {
+    align-items: start;
+}
+
 .ai-center {
     align-items: center;
+}
+
+.ai-start {
+    align-items: start;
 }
 
 .wrap {
@@ -65,6 +73,7 @@ img {
 
 /* HEADER */
 
+/* header nav section */
 nav {
     background-color: var(--nav_bg);
 }
@@ -88,6 +97,19 @@ nav ul li:first-child {
 
 nav ul li:last-child {
     margin-right: 0;
+}
+
+/* header main section */
+.header-main-section {
+    background-color: var(--header-bg);
+}
+
+.col-smaller {
+    width: calc(100% / 3);
+}
+
+.col-bigger {
+    width: calc(100% / 3 * 2);
 }
 
 /* MAIN */
