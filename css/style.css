@@ -59,6 +59,10 @@ img {
     align-items: start;
 }
 
+.ai-stretch {
+    align-items: stretch;
+}
+
 .ai-center {
     align-items: center;
 }
@@ -122,6 +126,18 @@ nav ul li:last-child {
 
 /* MAIN */
 
+    main {
+        background-color: var(--white);
+    }
+
+    .card-plan {
+        width: calc((100% - 4rem) / 3);
+        border: 1px solid lightgrey;
+    }
+
+    .card-plan:first-child {
+        border-bottom: 1px solid lig;
+    }
 
 /* FOOTER */
 
