@@ -1,6 +1,6 @@
 /* color variables */
 :root {
-    --nav_bg: rgba(255, 255, 255, 1);
+    --white: rgba(255, 255, 255, 1);
     --header-bg: rgba(180, 208, 231, 1);
     --footer-bg: rgba(0, 0, 0, 1);
     --button-bg: rgba(0, 97, 255, 1);
@@ -71,11 +71,18 @@ img {
     flex-wrap: wrap;
 }
 
+.btn {
+    background-color: var(--button-bg);
+    color: var(--white);
+    padding: 0.5rem 0.7rem;
+    text-decoration: none;
+}
+
 /* HEADER */
 
 /* header nav section */
 nav {
-    background-color: var(--nav_bg);
+    background-color: var(--white);
 }
 
 nav ul {
@@ -84,6 +91,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    color: var(--footer-bg);
 }
 
 nav ul li {
