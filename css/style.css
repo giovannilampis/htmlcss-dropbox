@@ -32,3 +32,33 @@ img {
     width: 100%;
 }
 
+.container-70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
