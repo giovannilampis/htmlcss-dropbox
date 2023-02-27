@@ -163,5 +163,47 @@ nav ul li:last-child {
         padding: 2rem 0;
     }
 
+    .square-big {
+        width: calc(100% / 3);
+        aspect-ratio: 1 / 1;
+    }
+
+    .square-small {
+        width: calc(100% / 2);
+        aspect-ratio: 1 / 1;
+    }
+
+    #designit {
+        background-color: var(--designit-bg);
+    }
+
+    #asu {
+        background-color: var(--asu-bg);
+    }
+
+    #uf {
+        background-color: var(--uf-bg);
+    }
+
+    #topps {
+        background-color: var(--topps-bg);
+    }
+
+    #wbr {
+        background-color: var(--wbr-bg);
+    }
+
+    #hearst {
+        background-color: var(--hearst-bg);
+    }
+
+    #lonely {
+        background-color: var(--lonely-bg);
+    }
+
+    #ccoutdoor {
+        background-color: var(--ccoutdoor-bg);
+    }
+
 /* FOOTER */
 
