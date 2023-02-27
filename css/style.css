@@ -1,6 +1,16 @@
 /* color variables */
 :root {
-
+    --header-bg: rgba(180, 208, 231, 1);
+    --footer-bg: rgba(0, 0, 0, 1);
+    --button-bg: rgba(0, 97, 255, 1);
+    --designit-bg: rgba(162, 211, 155, 1);
+    --asu-bg: rgba(97, 8, 43, 1);
+    --uf-bg: rgba(0, 147, 206, 1);
+    --topps-bg: rgba(255, 28, 28, 1);
+    --wbr-bg: rgba(213, 0, 31, 1);
+    --hearst-bg: rgba(180, 208, 231, 1);
+    --lonely-bg: rgba(13, 36, 129, 1);
+    --ccoutdoor-bg: rgba(255, 216, 48, 1);
 }
 
 /* UTILITIES */
@@ -13,6 +23,10 @@
 }
 
 /* GENERAL */
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
 
 img {
     width: 100%;
