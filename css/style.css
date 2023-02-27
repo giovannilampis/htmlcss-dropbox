@@ -1,5 +1,6 @@
 /* color variables */
 :root {
+    --nav_bg: rgba(255, 255, 255, 1);
     --header-bg: rgba(180, 208, 231, 1);
     --footer-bg: rgba(0, 0, 0, 1);
     --button-bg: rgba(0, 97, 255, 1);
@@ -61,4 +62,36 @@ img {
 .wrap {
     flex-wrap: wrap;
 }
+
+/* HEADER */
+
+nav {
+    background-color: var(--nav_bg);
+}
+
+nav ul {
+    padding: 1.5rem 1rem ;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 0.8rem;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* MAIN */
+
+
+/* FOOTER */
 
