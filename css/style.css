@@ -201,6 +201,8 @@ header > .header-bg > .container-70 {
         padding: 2rem 0;
     }
 
+    /* companies */
+
     .square-big {
         width: calc(100% / 3);
         aspect-ratio: 1 / 1;
@@ -210,6 +212,8 @@ header > .header-bg > .container-70 {
         width: calc(100% / 2);
         aspect-ratio: 1 / 1;
     }
+
+    /* companies' logos background colors */
 
     #designit {
         background-color: var(--designit-bg);
@@ -246,6 +250,8 @@ header > .header-bg > .container-70 {
     #ccoutdoor {
         background-color: var(--ccoutdoor-bg);
     }
+
+    /* call to action */
 
     .cta {
         padding: 6rem 0;
