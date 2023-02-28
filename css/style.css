@@ -161,6 +161,12 @@ header > .header-bg > .container-70 {
         background-color: var(--white);
     }
 
+    /* find your plan */
+
+    form {
+        padding: 3rem 0 2.5rem 0;
+    }
+
     .card {
         width: calc((100% - 4rem) / 3);
     }
