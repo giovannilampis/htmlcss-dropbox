@@ -169,6 +169,11 @@ header > .header-bg > .container-70 {
 
     .card {
         width: calc((100% - 4rem) / 3);
+        padding-bottom: 2.5rem;
+    }
+
+    .card i {
+        padding: 0.5rem 0;
     }
 
     .card-plan:first-child {
