@@ -191,8 +191,9 @@ header > .header-bg > .container-big {
         padding-bottom: 2.5rem;
     }
 
-    .card .btn, 
-    #enterprise .btn {
+    .card .btn,
+    #enterprise .btn,
+    .btn-light {
         display: inline-block;
     }
 
@@ -225,6 +226,12 @@ header > .header-bg > .container-big {
         text-align: center;
     }
 
+    /* find a partner section */
+
+    #find-partner {
+        margin-top: 8rem;
+    }
+
     .btn-light {
         background-color: var(--white);
         color: lightgrey;
@@ -234,6 +241,19 @@ header > .header-bg > .container-big {
 
     .partner-text {
         padding: 3rem 2rem;
+    }
+
+    /* perform tasks section */
+
+    #perform-tasks {
+        margin-top: 8rem;
+    }
+
+    /* our customers section */
+
+    #our-customers {
+        margin-top: 8rem;
+        margin-bottom: 8rem;
     }
 
     /* INSTITUTIONS */
