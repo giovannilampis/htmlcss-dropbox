@@ -171,7 +171,7 @@ header > .header-bg > .container-big {
     color: var(--footer-bg);
     font-size: 2.5rem;
     font-weight: bold;
-    padding-top: 1.5rem;
+    padding-top: 6rem;
 }
 
 /* MAIN */
@@ -335,7 +335,6 @@ header > .header-bg > .container-big {
     #institutions .square-big > img {
         width: 45%;
     }
-
 
     /* call to action */
 
