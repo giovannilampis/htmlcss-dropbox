@@ -12,6 +12,7 @@
     --wbr-bg: rgba(213, 0, 31, 1);
     --lonely-bg: rgba(13, 36, 129, 1);
     --ccoutdoor-bg: rgba(255, 216, 48, 1);
+    --baby-blue: rgba(180, 208, 231, 1);
 }
 
 /* UTILITIES */
@@ -266,7 +267,7 @@ header > .header-bg > .container-big {
     }
 
     #hearst {
-        background-color: var(--hearst-bg);
+        background-color: var(--baby-blue);
     }
 
     #lonely {
@@ -281,6 +282,16 @@ header > .header-bg > .container-big {
 
     #cta {
         padding: 6rem 0;
+        background-color: var(--baby-blue);
+        margin-bottom: 6rem;
+    }
+
+    #institutions .square-small > img {
+        width: 50%;
+    }
+
+    #institutions .square-big > img {
+        width: 45%;
     }
 
 /* FOOTER */
