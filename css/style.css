@@ -203,15 +203,18 @@ header > .header-bg > .container-big {
 
     .card ul li {
         list-style-type: none;
+        padding: 0.6rem 0.8rem;
+    }
+
+    #find-plan .card h3,
+    #find-plan .card h5,
+    .cost {
+        padding: 0.6rem 0.8rem;
     }
 
     #enterprise {
         margin-top: 3rem;
     }
-
-    /* .ßm-left {
-        margin-left: 1rem;
-    } */
 
     .border-grey {
         border: 1px solid lightgrey;
