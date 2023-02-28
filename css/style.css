@@ -191,20 +191,33 @@ header > .header-bg > .container-big {
         padding-bottom: 2.5rem;
     }
 
-    .card-plan:first-child {
-        border-bottom: 1px solid lig;
+    .card .btn, 
+    #enterprise .btn {
+        display: inline-block;
+    }
+
+    .card .bottom-grey i {
+        padding: 0.7rem 0;
     }
 
     .card ul li {
         list-style-type: none;
     }
 
-    .ßm-left {
-        margin-left: 1rem;
+    #enterprise {
+        margin-top: 3re,;
     }
+
+    /* .ßm-left {
+        margin-left: 1rem;
+    } */
 
     .border-grey {
         border: 1px solid lightgrey;
+    }
+
+    .border-grey .bottom-grey i {
+        padding: 0.7rem 0;
     }
 
     .bottom-grey {
@@ -223,12 +236,7 @@ header > .header-bg > .container-big {
         padding: 3rem 2rem;
     }
 
-    .partner-p {
-        color: lightgrey;
-        padding: 2rem 0;
-    }
-
-    /* companies */
+    /* INSTITUTIONS */
 
     .square-big {
         width: calc(100% / 3);
@@ -278,20 +286,22 @@ header > .header-bg > .container-big {
         background-color: var(--ccoutdoor-bg);
     }
 
-    /* call to action */
-
-    #cta {
-        padding: 6rem 0;
-        background-color: var(--baby-blue);
-        margin-bottom: 6rem;
-    }
-
+    /* institutions' logos dimensions */
     #institutions .square-small > img {
         width: 50%;
     }
 
     #institutions .square-big > img {
         width: 45%;
+    }
+
+
+    /* call to action */
+
+    #cta {
+        padding: 6rem 0;
+        background-color: var(--baby-blue);
+        margin-bottom: 6rem;
     }
 
 /* FOOTER */
