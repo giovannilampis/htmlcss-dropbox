@@ -93,10 +93,6 @@ nav {
     background-color: var(--white);
 }
 
-/* nav ul {
-    padding: 1.5rem 1rem ;
-} */
-
 nav a {
     text-decoration: none;
     color: var(--footer-bg);
@@ -117,7 +113,7 @@ nav ul li:last-child {
     margin-right: 0;
 }
 
-header nav ul li:not(.no-underline):hover {
+header nav ul li:not(.no-underline):hover{
     border-bottom: 1px solid var(--footer-bg);
 }
 
