@@ -216,6 +216,22 @@ header > .header-bg > .container-big {
         margin-top: 3rem;
     }
 
+    #enterprise h3 {
+        padding: 2rem 0 1rem 2rem;
+    }
+
+    #enterprise h5 {
+        padding: 0 0 2rem 2rem;
+    }
+
+    #enterprise p {
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    #enterprise .btn {
+        margin: 2rem 0 0 4rem;
+    }
+
     .border-grey {
         border: 1px solid lightgrey;
     }
