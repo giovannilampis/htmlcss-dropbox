@@ -172,10 +172,6 @@ header > .header-bg > .container-70 {
         padding-bottom: 2.5rem;
     }
 
-    .card i {
-        padding: 0.5rem 0;
-    }
-
     .card-plan:first-child {
         border-bottom: 1px solid lig;
     }
