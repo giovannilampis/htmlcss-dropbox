@@ -22,22 +22,24 @@
         <!-- nav -->
         <nav class="flex jc-between ai-center">
             <!-- left ul in nav -->
-            <ul class="flex jc-between ai-center">
-                <li class="no-underline">
-                    <img src="./images/logo-small.png" alt="logo Dropbox">
-                </li>
-                <li>
-                    <a href="http://">Perchè Dropbox</a>
-                </li>
-                <li>
-                    <a href="http://">Funzioni</a>
-                </li>
-                <li>
-                    <a href="">Piani e Prezzi</a>
-                </li>
-            </ul>
+            <div class="flex jc-center ai-center">
+                <img class="logo" src="./images/logo-small.png" alt="logo Dropbox">
+                <ul class="flex">
+            
+                    <li>
+                        <a href="http://">Perchè Dropbox</a>
+                    </li>
+                    <li>
+                        <a href="http://">Funzioni</a>
+                    </li>
+                    <li>
+                        <a href="">Piani e Prezzi</a>
+                    </li>
+                </ul>
+            </div>
+
             <!-- right ul in nav -->
-            <ul class="flex jc-between ai-center">
+            <ul class="flex">
                 <li>
                     <a href="http://">Supporto</a>
                 </li>
@@ -52,9 +54,9 @@
                 </li>
             </ul>
         </nav>
-        <!-- text + image part of header section -->
-        <div class="header-bg">
-            <div class="container-80">
+        <!-- main part of header section: text + image -->
+        <section class="header-bg" id="main-header">
+            <div class="container-big">
                 <h1>Tutto ciò che ti serve per il <br> lavoro, in un unico posto</h1>
                 <!-- HERO -->
                 <div class="hero flex jc-between ai-start">
@@ -67,281 +69,285 @@
                     <img class="col-bigger" src="./images/jumbo.png" alt="header jumbo image">
                 </div>
             </div>
-        </div>
+        </section>
 
     </header>
 
     <!-- MAIN -->
 
     <main>
-        <div class="container-70">
 
-            <!-- find a suitable Dropbox plan -->
+        <section class="container-small" id="find-plan">
+             <!-- find a suitable Dropbox plan -->
 
-            <h2>Trova il piano business che fa per te</h2>
+             <h2>Trova il piano business che fa per te</h2>
 
-            <!-- button radio to choose how to pay -->
+             <!-- button radio to choose how to pay -->
+ 
+             <form action="">
+                 <label for="">Fatturazione mensile</label>
+                 <input type="radio" checked>
+                 <label for="">Fatturazione annuale</label>
+                 <input type="radio">
+             </form>
+ 
+             <!-- CARDS FLEXED CONTAINER -->
+             <div class="flex jc-between ai-stretch">
+                 <!-- card 1 -->
+                 <div class="card border-grey">
+                     <div class="bottom-grey">
+                         <i class="fa-solid fa-user"></i> Team
+                     </div>
+                     <div>
+                         <h3>Professional</h3>
+                         <h5>€ 12.00</h5>
+                         <span>/ mese</span> <br>
+                         <ul>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-user"></i> 
+                                     </span>
+                                     <span> 1 utente</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-folder"></i> 
+                                     </span>
+                                     <span> 5 TB di spazio di archiviazione sicuro</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-share-nodes"></i> 
+                                     </span>
+                                     <span> Funzioni di produttività premium e condivisione file semplice e sicura</span> 
+                                 </div>
+                             </li>
+                             <li class="m-left">
+                                 <a href="" class="btn">Prova gratis per 30 giorni</a>
+                             </li>
+                             <li class="m-left">
+                                 <span>oppure </span><a href="">Acquista ora</a>
+                             </li>
+                             <li class="m-left">
+                                 <h5>Punti salienti del piano</h5>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Invia file fino a 100 GB con Dropbox Transfert</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Cartelle offline su dispositivi mobili</span> 
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 
+                  <!-- card 2 -->
+                 <div class="card border-grey">
+                     <div class="bottom-grey">
+                         <i class="fa-solid fa-people-group"></i> Team
+                     </div>
+                     <div>
+                         <h3>Advanced</h3>
+                         <h5>€ 18.00</h5>
+                         <span>/ utente / mese</span> <br>
+                         <ul>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-user"></i> 
+                                     </span>
+                                     <span> 3 o più utenti</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-folder"></i> 
+                                     </span>
+                                     <span> Tutto lo spazio di cui il tuo team ha bisogno</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-share-nodes"></i> 
+                                     </span>
+                                     <span> Sofisticate funzioni di controllo, per tenere al sicuro tutti i file del tuo team</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <a href="" class="btn">Prova gratis per 30 giorni</a>
+                             </li>
+                             <li>
+                                 <span>oppure </span><a href="">Acquista ora</a>
+                             </li>
+                             <li>
+                                 <h5>Punti salienti del piano</h5>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Nessun limite di spazio per i file</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Cartelle offline su dispositivi mobili</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Risparmio del 50% rispetto alle iscrizioni singole</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Possibilità di inserire nuovi elementi del team</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Gestione dei permessi in base ai ruoli</span> 
+                                 </div>
+                             </li>
+                         </ul>
+                     </div> 
+                 </div>
+                 <!-- card 3 -->
+                 <div class="card border-grey">
+                     <div class="bottom-grey">
+                         <i class="fa-solid fa-building"></i> Azienda
+                     </div>
+                     <div>
+                         <h3>Enterprise</h3>
+                         <h5>Contattaci</h5>
+                         <span>-</span> <br>
+                         <div><i class="fa-solid fa-user"></i> 10 o più utenti</div>
+                         <ul>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-user"></i> 
+                                     </span>
+                                     <span> 3 o più utenti</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-folder"></i> 
+                                     </span>
+                                     <span> Soluzioni personalizzabili per la tua azienda</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-share-nodes"></i> 
+                                     </span>
+                                     <span> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <a href="" class="btn">Prova gratis per 30 giorni</a>
+                             </li>
+                             <li>
+                                 <span>oppure </span><a href="">Acquista ora</a>
+                             </li>
+                             <li>
+                                 <h5>Punti salienti del piano</h5>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Cartelle offline su dispositivi mobili</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Servizio assistenza 24/h</span> 
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="flex jc-start">
+                                     <span>
+                                         <i class="fa-solid fa-check"></i>
+                                     </span>
+                                     <span> Possibilità di totale personalizzazione</span> 
+                                 </div>
+                             </li>
+                         </ul>
+                 </div>
+             </div>
+ 
+         </div>
+         <!-- enterprise solution (card 4) -->
+         <div class="border-grey">
+             <div class="bottom-grey">
+                 <i class="fa-solid fa-building"></i> Team
+             </div>
+             <div class="flex jc-between ai-start">
+                 <div class="col-bigger">
+                     <h3>Enterprise</h3>
+                     <h5>Contatta l'ufficio vendite per i prezzi</h5>
+                     <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                 </div>
+                 <div class="col-smaller">
+                     <a href="" class="btn">Conttatta l'ufficio vendite</a>
+                 </div>
+             </div>
+         </div>
+ 
+        </section>
 
-            <form action="">
-                <label for="">Fatturazione mensile</label>
-                <input type="radio" checked>
-                <label for="">Fatturazione annuale</label>
-                <input type="radio">
-            </form>
-
-            <!-- CARDS FLEXED CONTAINER -->
-            <div class="flex jc-between ai-stretch">
-                <!-- card 1 -->
-                <div class="card border-grey">
-                    <div class="bottom-grey">
-                        <i class="fa-solid fa-user"></i> Team
-                    </div>
-                    <div>
-                        <h3>Professional</h3>
-                        <h5>€ 12.00</h5>
-                        <span>/ mese</span> <br>
-                        <ul>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-user"></i> 
-                                    </span>
-                                    <span> 1 utente</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-folder"></i> 
-                                    </span>
-                                    <span> 5 TB di spazio di archiviazione sicuro</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-share-nodes"></i> 
-                                    </span>
-                                    <span> Funzioni di produttività premium e condivisione file semplice e sicura</span> 
-                                </div>
-                            </li>
-                            <li class="m-left">
-                                <a href="" class="btn">Prova gratis per 30 giorni</a>
-                            </li>
-                            <li class="m-left">
-                                <span>oppure </span><a href="">Acquista ora</a>
-                            </li>
-                            <li class="m-left">
-                                <h5>Punti salienti del piano</h5>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Invia file fino a 100 GB con Dropbox Transfert</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Cartelle offline su dispositivi mobili</span> 
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                 <!-- card 2 -->
-                <div class="card border-grey">
-                    <div class="bottom-grey">
-                        <i class="fa-solid fa-people-group"></i> Team
-                    </div>
-                    <div>
-                        <h3>Advanced</h3>
-                        <h5>€ 18.00</h5>
-                        <span>/ utente / mese</span> <br>
-                        <ul>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-user"></i> 
-                                    </span>
-                                    <span> 3 o più utenti</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-folder"></i> 
-                                    </span>
-                                    <span> Tutto lo spazio di cui il tuo team ha bisogno</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-share-nodes"></i> 
-                                    </span>
-                                    <span> Sofisticate funzioni di controllo, per tenere al sicuro tutti i file del tuo team</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <a href="" class="btn">Prova gratis per 30 giorni</a>
-                            </li>
-                            <li>
-                                <span>oppure </span><a href="">Acquista ora</a>
-                            </li>
-                            <li>
-                                <h5>Punti salienti del piano</h5>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Nessun limite di spazio per i file</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Cartelle offline su dispositivi mobili</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Risparmio del 50% rispetto alle iscrizioni singole</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Possibilità di inserire nuovi elementi del team</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Gestione dei permessi in base ai ruoli</span> 
-                                </div>
-                            </li>
-                        </ul>
-                    </div> 
-                </div>
-                <!-- card 3 -->
-                <div class="card border-grey">
-                    <div class="bottom-grey">
-                        <i class="fa-solid fa-building"></i> Azienda
-                    </div>
-                    <div>
-                        <h3>Enterprise</h3>
-                        <h5>Contattaci</h5>
-                        <span>-</span> <br>
-                        <div><i class="fa-solid fa-user"></i> 10 o più utenti</div>
-                        <ul>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-user"></i> 
-                                    </span>
-                                    <span> 3 o più utenti</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-folder"></i> 
-                                    </span>
-                                    <span> Soluzioni personalizzabili per la tua azienda</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-share-nodes"></i> 
-                                    </span>
-                                    <span> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <a href="" class="btn">Prova gratis per 30 giorni</a>
-                            </li>
-                            <li>
-                                <span>oppure </span><a href="">Acquista ora</a>
-                            </li>
-                            <li>
-                                <h5>Punti salienti del piano</h5>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Cartelle offline su dispositivi mobili</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Servizio assistenza 24/h</span> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex jc-start">
-                                    <span>
-                                        <i class="fa-solid fa-check"></i>
-                                    </span>
-                                    <span> Possibilità di totale personalizzazione</span> 
-                                </div>
-                            </li>
-                        </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- enterprise solution -->
-        <div class="border-grey">
-            <div class="bottom-grey">
-                <i class="fa-solid fa-building"></i> Team
-            </div>
+        <section class="container-small" id="find-partner">
             <div class="flex jc-between ai-start">
                 <div class="col-bigger">
-                    <h3>Enterprise</h3>
-                    <h5>Contatta l'ufficio vendite per i prezzi</h5>
-                    <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                    <img src="./images/partner.png" alt="partner">
                 </div>
-                <div class="col-smaller">
-                    <a href="" class="btn">Conttatta l'ufficio vendite</a>
+                <div class="col-smaller partner-text">
+                    <h3>Entra in contatto con un partner Dropbox</h3>
+                    <p class="partner-p">Trova un partner Dropbox e Hellosign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi azziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <a href="" class="btn-light border-grey">Trova un partner</a>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="flex jc-between ai-start">
-            <div class="col-bigger">
-                <img src="./images/partner.png" alt="partner">
-            </div>
-            <div class="col-smaller partner-text">
-                <h3>Entra in contatto con un partner Dropbox</h3>
-                <p class="partner-p">Trova un partner Dropbox e Hellosign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi azziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
-                <a href="" class="btn-light border-grey">Trova un partner</a>
-            </div>
-        </div>
-
-        <div>
+        <section class="container-small" id="perform-tasks">
             <h2>Esegui più operazioni con DropBob Business</h2>
             <div class="flex jc-between ai-center wrap">
                 <div class="card">
@@ -375,14 +381,14 @@
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div>
+        <section class="container-small" id="our-customers">
             <h2>Pin di 500.000 team utilizzano Dronbox Business</h2>
             <a href="">Scopri di più sui nostri clienti</a>
-        </div>
+        </section>
 
-        <section class="flex jc-between ai-center">
+        <section class="flex jc-between ai-center" id="institutions">
             <div class="square-big flex jc-between ai-center wrap">
                 <div id="designit" class="square-small">
                     <img src="./images/designit.svg" alt="designit logo">
@@ -417,15 +423,14 @@
         </section>
 
         <!-- CALL TO ACTION -->
-
-        <div class="cta flex jc-around ai-center header-bg">
+        <section class="flex jc-around ai-center header-bg" id="cta">
             <h2>Porta Dropbox Business nella tua azienda</h2>
             <a href="" class="btn-light">Inizia la tua prova gratuita</a>
-        </div>
+        </section>
 
         <!-- FAQ -->
 
-        <section>
+        <section class="container-small">
             
             <h2>Domande frequenti</h2>
 
@@ -466,7 +471,9 @@
     <!-- FOOTER -->
 
     <footer>
+        <section class="container-big">
 
+        </section>
     </footer>
     
 </body>
