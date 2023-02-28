@@ -328,6 +328,8 @@ header > .header-bg > .container-big {
     /* institutions' logos dimensions */
     #institutions .square-small > img {
         width: 50%;
+        /* switch color image to white */
+        filter: invert(1); 
     }
 
     #institutions .square-big > img {
