@@ -93,6 +93,13 @@ img {
     text-decoration: none;
 }
 
+#find-plan .card .btn {
+    width: 100%;
+    text-align: center;
+}
+
+
+
 /* change colors to .btn elements on :hover */
 .btn:hover {
     background-color: var(--baby-blue);
@@ -413,11 +420,19 @@ header > .header-bg > .container-big {
         color: var(--asu-bg);
     }
 
+    /* #faq section */
+
+    #faq hr {
+        color: var(--light-gray);
+        margin: 1.5rem 0;
+    }
+
 /* FOOTER */
 
 footer {
     background-color: var(--footer-bg);
     color: var(--white);
+    margin-top: 7rem;
 }
 
 footer .container-big {
@@ -437,6 +452,16 @@ footer ul li:first-child {
 }
 
 .white-bottom {
-    border-bottom: 1px solis var(--white);
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 4rem;
+}
+
+footer i {
+    padding-top: 2rem;
+}
+
+.language i,
+.language span {
+    padding-right: 0.5rem;
 }
 
