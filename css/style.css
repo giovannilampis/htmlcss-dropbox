@@ -91,6 +91,12 @@ img {
     text-decoration: none;
 }
 
+.btn:hover {
+    background-color: var(--baby-blue);
+    color: var(--button-bg);
+    border: 1px solid var(--button-bg);
+}
+
 /* HEADER */
 
 /* header nav section */
@@ -287,6 +293,8 @@ header > .header-bg > .container-big {
     #perform-tasks {
         margin-top: 8rem;
     }
+
+    /* change paddings inside #perform-tasks section */
 
     #perform-tasks h2 {
         padding-bottom: 2.5rem;
