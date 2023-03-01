@@ -180,7 +180,7 @@ header > .header-bg > .container-big {
         background-color: var(--white);
     }
 
-    /* find your plan */
+    /* find your plan section */
 
     form {
         padding: 3rem 0 2.5rem 0;
@@ -204,6 +204,12 @@ header > .header-bg > .container-big {
     .card ul li {
         list-style-type: none;
         padding: 0.6rem 0.8rem;
+    }
+
+    /* change color to "check" icons (v) */
+    .card ul li i.fa-check,
+    .card ul li a:not(.btn) {
+        color: var(--button-bg);
     }
 
     #find-plan .card h3,
