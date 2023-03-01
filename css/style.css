@@ -288,6 +288,14 @@ header > .header-bg > .container-big {
         margin-top: 8rem;
     }
 
+    #perform-tasks h2 {
+        padding-bottom: 2.5rem;
+    }
+
+    #perform-tasks h3 {
+        padding: 0.5rem 0 1.2rem 0;
+    }
+
     /* our customers section */
 
     #our-customers {
