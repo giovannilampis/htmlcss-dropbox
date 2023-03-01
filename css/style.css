@@ -409,6 +409,10 @@ header > .header-bg > .container-big {
         margin-bottom: 6rem;
     }
 
+    #cta h2 {
+        color: var(--asu-bg);
+    }
+
 /* FOOTER */
 
 footer {
