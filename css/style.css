@@ -334,6 +334,17 @@ header > .header-bg > .container-big {
 
     #institutions .square-big > img {
         width: 45%;
+        /* padding img logo in central gray .square-big */
+        padding: 2rem 0 2rem 2rem;
+    }
+
+    /* padding in .square-big (Designit) text section */
+    .text-square-big {
+        padding: 2rem;
+    }
+
+    .text-square-big > p {
+        padding-bottom: 2rem;
     }
 
     /* call to action */
