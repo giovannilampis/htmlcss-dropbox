@@ -382,6 +382,7 @@ header > .header-bg > .container-big {
 
     #designit-grey {
         background-color: var(--designit-grey);
+        overflow-y: auto;
     }
 
     #wbr {
@@ -410,7 +411,7 @@ header > .header-bg > .container-big {
     #institutions .square-big > img {
         width: 45%;
         /* padding img logo in central gray .square-big */
-        padding: 2rem 0 2rem 2rem;
+        padding: 2rem 0 0 2rem;
     }
 
     /* padding in .square-big (Designit) text section */
@@ -420,6 +421,11 @@ header > .header-bg > .container-big {
 
     .text-square-big > p {
         padding-bottom: 2rem;
+    }
+
+    .line {
+        color: var(--light-gray);
+        padding: 0 0 2.5rem 0;
     }
 
     /* call to action */
@@ -453,13 +459,8 @@ header > .header-bg > .container-big {
         padding-right: 3rem;
     }
 
-    /* #faq div:first-child,
-    #faq div:nth-of-type(2),
-    #faq div:last-child {
-        display: inline-block;
-    } */
-
-    .answer-1,
+    /* POSSIBLE BONUS WORK ON #FAQ */
+    /* .answer-1,
     .answer-2,
     .answer-3 {
         display: none;
@@ -487,7 +488,7 @@ header > .header-bg > .container-big {
 
     #faq div:first-child:hover #faq div:first-child i:last-child {
         display: inline-block;
-    }
+    } */
 
 /* FOOTER */
 
