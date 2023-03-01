@@ -227,7 +227,7 @@ header > .header-bg > .container-big {
         display: inline-block;
     }
 
-    .card .bottom-grey i {
+    .card .card-top i {
         padding: 0.7rem 0;
     }
 
@@ -240,6 +240,11 @@ header > .header-bg > .container-big {
     .card ul li i.fa-check,
     .card ul li a:not(.btn) {
         color: var(--button-bg);
+    }
+
+    #find-plan .card .card-top i,
+    #enterprise .card-top i {
+        padding-right: 0.7rem;
     }
 
     /* add margin top to h3 elements in #find-plan */
@@ -282,11 +287,11 @@ header > .header-bg > .container-big {
         border: 1px solid lightgrey;
     }
 
-    .border-grey .bottom-grey i {
+    .border-grey .card-top i {
         padding: 0.7rem 0;
     }
 
-    .bottom-grey {
+    .card-top {
         border-bottom: 1px solid lightgrey;
         text-align: center;
     }
