@@ -441,7 +441,15 @@ footer {
 }
 
 footer .container-big {
-    padding: 4rem 0 2rem 0;
+    padding: 4.5rem 0 3rem 0;
+}
+
+footer .container-big .flex {
+    padding-bottom: 1rem;
+}
+
+footer .container-big .flex ul {
+    padding-bottom: 4rem;
 }
 
 footer ul li {
@@ -456,9 +464,8 @@ footer ul li:first-child {
     margin-bottom: 0.4rem;
 }
 
-.white-bottom {
+.line-in-footer {
     border-bottom: 1px solid var(--white);
-    padding-bottom: 4rem;
 }
 
 footer i {
