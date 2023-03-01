@@ -120,7 +120,6 @@ img {
     color: lightgray;
 }
 
-
 /* HEADER */
 
 /* header nav section */
@@ -442,6 +441,42 @@ header > .header-bg > .container-big {
 
     #faq i {
         padding-right: 3rem;
+    }
+
+    /* #faq div:first-child,
+    #faq div:nth-of-type(2),
+    #faq div:last-child {
+        display: inline-block;
+    } */
+
+    .answer-1,
+    .answer-2,
+    .answer-3 {
+        display: none;
+    }
+
+    #faq div:first-child i:first-child,
+    #faq div:nth-of-type(2) i:first-child,
+    #faq div:last-child i:first-child {
+        display: inline-block;
+    }
+
+    #faq div:first-child i:last-child,
+    #faq div:nth-of-type(2) i:last-child,
+    #faq div:last-child i:last-child {
+        display: none;
+    }
+
+    #faq div:first-child:hover .answer-1{
+        display: inline-block;
+    }
+
+    #faq div:first-child:hover #faq div:first-child i:first-child {
+        display: none;
+    }
+
+    #faq div:first-child:hover #faq div:first-child i:last-child {
+        display: inline-block;
     }
 
 /* FOOTER */
