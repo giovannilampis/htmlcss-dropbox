@@ -212,6 +212,11 @@ header > .header-bg > .container-big {
         color: var(--button-bg);
     }
 
+    /* add margin top to h3 elements in #find-plan */
+    #find-plan h3 {
+        margin-top: 1rem;
+    }
+
     #find-plan .card h3,
     #find-plan .card h5,
     .cost {
