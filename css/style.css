@@ -222,6 +222,13 @@ header > .header-bg > .container-big {
     .cost {
         padding: 0.6rem 0.8rem;
     }
+    
+    /* padding right to icons in #find-plan .card elements */
+    #find-plan .card ul li i {
+        padding-right: 0.4rem;
+    }
+
+
 
     #enterprise {
         margin-top: 3rem;
