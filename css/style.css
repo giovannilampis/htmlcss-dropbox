@@ -4,6 +4,7 @@
     --header-bg: rgba(180, 208, 231, 1);
     --footer-bg: rgba(0, 0, 0, 1);
     --button-bg: rgba(0, 97, 255, 1);
+    --designit-border: rgba(209, 233, 205, 1);
     --designit-bg: rgba(162, 211, 155, 1);
     --designit-grey: rgba(245, 245, 245, 1);
     --asu-bg: rgba(97, 8, 43, 1);
@@ -104,7 +105,7 @@ img {
 .btn:hover {
     background-color: var(--baby-blue);
     color: var(--button-bg);
-    /* border: 1px solid var(--button-bg); */
+    border: 1px solid var(--button-bg);
 }
 
 /* gray btn elements */
@@ -356,6 +357,7 @@ header > .header-bg > .container-big {
 
     #designit {
         background-color: var(--designit-bg);
+        border: 1rem solid var(--designit-border);
     }
 
     #asu {
