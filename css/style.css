@@ -278,6 +278,10 @@ header > .header-bg > .container-big {
         padding: 3rem 2rem;
     }
 
+    .partner-text p {
+        padding: 1rem 0 1.8rem 0;
+    }
+
     /* perform tasks section */
 
     #perform-tasks {
