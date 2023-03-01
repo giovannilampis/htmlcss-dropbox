@@ -275,6 +275,14 @@ header > .header-bg > .container-big {
         margin-bottom: 8rem;
     }
 
+    #our-customers h2 {
+        padding-bottom: 3rem;
+    }
+
+    #our-customers a {
+        color: var(--button-bg);
+    }
+
     /* INSTITUTIONS */
 
     .square-big {
