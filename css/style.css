@@ -427,9 +427,21 @@ header > .header-bg > .container-big {
 
     /* #faq section */
 
+    #faq h2 {
+        padding: 2rem 0;
+    }
+
     #faq hr {
         color: var(--light-gray);
-        margin: 1.5rem 0;
+        margin: 2rem 0;
+    }
+
+    #faq p {
+        font-weight: bold;
+    }
+
+    #faq i {
+        padding-right: 3rem;
     }
 
 /* FOOTER */
