@@ -420,3 +420,23 @@ footer {
     color: var(--white);
 }
 
+footer .container-big {
+    padding: 4rem 0 2rem 0;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+footer ul li:first-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.white-bottom {
+    border-bottom: 1px solis var(--white);
+}
+
