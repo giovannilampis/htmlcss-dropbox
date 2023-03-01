@@ -201,9 +201,9 @@ header > .header-bg > .container-big {
         padding: 0.7rem 0;
     }
 
-    .card ul li {
+    #find-plan .card ul li {
         list-style-type: none;
-        padding: 0.6rem 0.8rem;
+        padding: 0.6rem 1rem;
     }
 
     /* change color to "check" icons (v) */
@@ -220,16 +220,14 @@ header > .header-bg > .container-big {
     #find-plan .card h3,
     #find-plan .card h5,
     .cost {
-        padding: 0.6rem 0.8rem;
+        padding: 0.6rem 1rem;
     }
     
     /* padding right to icons in #find-plan .card elements */
     #find-plan .card ul li i {
         padding-right: 0.4rem;
     }
-
-
-
+    /* 4th card or #enterprise element in #find-plan */
     #enterprise {
         margin-top: 3rem;
     }
