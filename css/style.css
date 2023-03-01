@@ -13,6 +13,7 @@
     --lonely-bg: rgba(13, 36, 129, 1);
     --ccoutdoor-bg: rgba(255, 216, 48, 1);
     --baby-blue: rgba(180, 208, 231, 1);
+    --light-gray: #999999;
 }
 
 /* UTILITIES */
@@ -84,6 +85,7 @@ img {
     flex-wrap: wrap;
 }
 
+/* blue btn elements */
 .btn {
     background-color: var(--button-bg);
     color: var(--white);
@@ -91,10 +93,25 @@ img {
     text-decoration: none;
 }
 
+/* change colors to .btn elements on :hover */
 .btn:hover {
     background-color: var(--baby-blue);
     color: var(--button-bg);
     border: 1px solid var(--button-bg);
+}
+
+/* gray btn elements */
+.btn-light {
+    background-color: var(--white);
+    color: var(--light-gray);
+    padding: 0.5rem 0.7rem;
+    text-decoration: none;
+}
+
+/* change color to gray btn elements on :hover */
+.btn-light:hover {
+    background-color: var(--light-gray);
+    color: var(--white);
 }
 
 /* HEADER */
@@ -271,13 +288,6 @@ header > .header-bg > .container-big {
 
     #find-partner {
         margin-top: 8rem;
-    }
-
-    .btn-light {
-        background-color: var(--white);
-        color: lightgrey;
-        padding: 0.5rem 0.7rem;
-        text-decoration: none;
     }
 
     .partner-text {
