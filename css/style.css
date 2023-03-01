@@ -156,7 +156,7 @@ header nav ul li:not(.no-underline):hover{
     margin-right: 1.5rem;
 }
 
-/* header main section */
+/* header's main section */
 
 .header-bg {
     background-color: var(--header-bg);
@@ -291,7 +291,7 @@ header > .header-bg > .container-big {
     }
 
     .partner-text {
-        padding: 3rem 2rem;
+        padding: 3rem;
     }
 
     .partner-text p {
