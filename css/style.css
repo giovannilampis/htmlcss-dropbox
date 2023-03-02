@@ -228,6 +228,10 @@ form {
     padding: 3rem 0 2.5rem 0;
 }
 
+form label {
+    padding-right: 3rem;
+}
+
 .card {
     width: calc((100% - 4rem) / 3);
     padding-bottom: 2.5rem;
