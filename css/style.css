@@ -36,6 +36,8 @@ img {
     width: 100%;
 }
 
+/* containers */
+
 .container-big {
     max-width: 1200px;
     margin: 0 auto;
@@ -45,6 +47,8 @@ img {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+/* flex classes */
 
 .flex {
     display: flex;
@@ -206,289 +210,292 @@ header > .header-bg > .container-big {
 
 /* MAIN */
 
-    main {
-        background-color: var(--white);
-    }
+main {
+    background-color: var(--white);
+}
 
-    h2 {
-        font-size: 2.5rem;
-    }
+h2 {
+    font-size: 2.5rem;
+}
 
-    h3 {
-        font-size: 1.5rem;
-    }
+h3 {
+    font-size: 1.5rem;
+}
 
-    /* find your plan section */
+/* find your plan section */
 
-    form {
-        padding: 3rem 0 2.5rem 0;
-    }
+form {
+    padding: 3rem 0 2.5rem 0;
+}
 
-    .card {
-        width: calc((100% - 4rem) / 3);
-        padding-bottom: 2.5rem;
-    }
+.card {
+    width: calc((100% - 4rem) / 3);
+    padding-bottom: 2.5rem;
+}
 
-    .card .btn,
-    #enterprise .btn,
-    .btn-light {
-        display: inline-block;
-    }
+.card .btn,
+#enterprise .btn,
+.btn-light {
+    display: inline-block;
+}
 
-    .card .card-top i {
-        padding: 0.7rem 0;
-    }
+.card .card-top i {
+    padding: 0.7rem 0;
+}
 
-    #find-plan .card ul li {
-        list-style-type: none;
-        padding: 0.6rem 1rem;
-    }
+#find-plan .card ul li {
+    list-style-type: none;
+    padding: 0.6rem 1rem;
+}
 
-    /* change color to "check" icons (v) */
-    .card ul li i.fa-check,
-    .card ul li a:not(.btn) {
-        color: var(--button-bg);
-    }
+/* change color to "check" icons (v) */
+.card ul li i.fa-check,
+.card ul li a:not(.btn) {
+    color: var(--button-bg);
+}
 
-    #find-plan .card .card-top i,
-    #enterprise .card-top i {
-        padding-right: 0.7rem;
-    }
+#find-plan .card .card-top i,
+#enterprise .card-top i {
+    padding-right: 0.7rem;
+}
 
-    /* add margin top to h3 elements in #find-plan */
-    #find-plan h3 {
-        margin-top: 1rem;
-    }
+/* add margin top to h3 elements in #find-plan */
+#find-plan h3 {
+    margin-top: 1rem;
+}
 
-    #find-plan .card h3,
-    #find-plan .card h5,
-    .cost {
-        padding: 0.6rem 1rem;
-    }
+#find-plan .card h3,
+#find-plan .card h5,
+.cost {
+    padding: 0.6rem 1rem;
+}
     
-    /* padding right to icons in #find-plan .card elements */
-    #find-plan .card ul li i {
-        padding-right: 0.4rem;
-    }
-    /* 4th card or #enterprise element in #find-plan */
-    #enterprise {
-        margin-top: 3rem;
-    }
+/* padding right to icons in #find-plan .card elements */
+#find-plan .card ul li i {
+    padding-right: 0.4rem;
+}
 
-    #enterprise h3 {
-        padding: 2rem 0 1rem 2rem;
-    }
+/* 4th card or #enterprise element */
+#enterprise {
+    margin-top: 3rem;
+}
 
-    #enterprise h5 {
-        padding: 0 0 2rem 2rem;
-    }
+#enterprise h3 {
+    padding: 2rem 0 1rem 2rem;
+}
 
-    #enterprise p {
-        padding: 0 2rem 2rem 2rem;
-    }
+#enterprise h5 {
+    padding: 0 0 2rem 2rem;
+}
 
-    #enterprise .btn {
-        margin: 2rem 0 0 4rem;
-    }
+#enterprise p {
+    padding: 0 2rem 2rem 2rem;
+}
 
-    .border-grey {
-        border: 1px solid lightgrey;
-    }
+#enterprise .btn {
+    margin: 2rem 0 0 4rem;
+}
 
-    .border-grey .card-top i {
-        padding: 0.7rem 0;
-    }
+.border-grey {
+    border: 1px solid lightgrey;
+}
 
-    .card-top {
-        border-bottom: 1px solid lightgrey;
-        text-align: center;
-    }
+.border-grey .card-top i {
+    padding: 0.7rem 0;
+}
 
-    /* find a partner section */
+.card-top {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
 
-    #find-partner {
-        margin-top: 8rem;
-    }
+/* find a partner section */
 
-    .partner-text {
-        padding: 3rem;
-    }
+#find-partner {
+    margin-top: 8rem;
+}
 
-    .partner-text p {
-        padding: 1rem 0 1.8rem 0;
-    }
+.partner-text {
+    padding: 3rem;
+}
 
-    /* perform tasks section */
+.partner-text p {
+    padding: 1rem 0 1.8rem 0;
+}
 
-    #perform-tasks {
-        margin-top: 8rem;
-    }
+/* perform tasks section */
 
-    /* change paddings inside #perform-tasks section */
+#perform-tasks {
+    margin-top: 8rem;
+}
 
-    #perform-tasks h2 {
-        padding-bottom: 2.5rem;
-    }
+/* change paddings inside #perform-tasks section */
 
-    #perform-tasks h3 {
-        padding: 0.5rem 0 1.2rem 0;
-    }
+#perform-tasks h2 {
+    padding-bottom: 2.5rem;
+}
 
-    /* our customers section */
+#perform-tasks h3 {
+    padding: 0.5rem 0 1.2rem 0;
+}
 
-    #our-customers {
-        margin-top: 8rem;
-        margin-bottom: 8rem;
-    }
+/* our customers section */
 
-    #our-customers h2 {
-        padding-bottom: 3rem;
-    }
+#our-customers {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
 
-    #our-customers a {
-        color: var(--button-bg);
-    }
+#our-customers h2 {
+    padding-bottom: 3rem;
+}
 
-    /* INSTITUTIONS */
+#our-customers a {
+    color: var(--button-bg);
+}
 
-    .square-big {
-        width: calc(100% / 3);
-        aspect-ratio: 1 / 1;
-    }
+/* INSTITUTIONS */
 
-    .square-small {
-        width: calc(100% / 2);
-        aspect-ratio: 1 / 1;
-    }
+.square-big {
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+}
 
-    /* companies' logos' background colors */
+.square-small {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+}
 
-    #designit {
-        background-color: var(--designit-bg);
-        border: 1rem solid var(--designit-border);
-    }
+/* companies' logos' background colors */
 
-    #asu {
-        background-color: var(--asu-bg);
-    }
+#designit {
+    background-color: var(--designit-bg);
+    border: 1rem solid var(--designit-border);
+}
 
-    #uf {
-        background-color: var(--uf-bg);
-    }
+#asu {
+    background-color: var(--asu-bg);
+}
 
-    #topps {
-        background-color: var(--topps-bg);
-    }
+#uf {
+    background-color: var(--uf-bg);
+}
 
-    #designit-grey {
-        background-color: var(--designit-grey);
-        overflow-y: auto;
-    }
+#topps {
+    background-color: var(--topps-bg);
+}
 
-    #wbr {
-        background-color: var(--wbr-bg);
-    }
+#designit-grey {
+    background-color: var(--designit-grey);
+    overflow-y: auto;
+}
 
-    #hearst {
-        background-color: var(--baby-blue);
-    }
+#wbr {
+    background-color: var(--wbr-bg);
+}
 
-    #lonely {
-        background-color: var(--lonely-bg);
-    }
+#hearst {
+    background-color: var(--baby-blue);
+}
 
-    #ccoutdoor {
-        background-color: var(--ccoutdoor-bg);
-    }
+#lonely {
+    background-color: var(--lonely-bg);
+}
 
-    /* institutions' logos dimensions */
-    #institutions .square-small > img {
-        width: 50%;
-        /* switch color image to white */
-        filter: invert(1); 
-    }
+#ccoutdoor {
+    background-color: var(--ccoutdoor-bg);
+}
 
-    #institutions .square-big > img {
-        width: 45%;
-        /* padding img logo in central gray .square-big */
-        padding: 2rem 0 0 2rem;
-    }
+/* institutions' logos dimensions */
+#institutions .square-small > img {
+    width: 50%;
+    /* switch color image to white */
+    filter: invert(1); 
+}
 
-    /* padding in .square-big (Designit) text section */
-    .text-square-big {
-        padding: 2rem;
-    }
+#institutions .square-big > img {
+    width: 45%;
+    /* padding img logo in central gray .square-big */
+    padding: 2rem 0 0 2rem;
+}
 
-    .text-square-big > p {
-        padding-bottom: 2rem;
-    }
+/* padding in .square-big (Designit) text section */
+.text-square-big {
+    padding: 2rem;
+}
 
-    .line {
-        color: var(--light-gray);
-        padding: 0 0 2.5rem 0;
-    }
+.text-square-big > p {
+    padding-bottom: 2rem;
+}
 
-    /* call to action */
+.line {
+    color: var(--light-gray);
+    padding: 0 0 2.5rem 0;
+}
 
-    #cta {
-        padding: 6rem 0;
-        background-color: var(--baby-blue);
-        margin-bottom: 6rem;
-    }
+/* call to action section */
 
-    #cta h2 {
-        color: var(--asu-bg);
-    }
+#cta {
+    padding: 6rem 0;
+    background-color: var(--baby-blue);
+    margin-bottom: 6rem;
+}
 
-    /* #faq section */
+#cta h2 {
+    color: var(--asu-bg);
+}
 
-    #faq h2 {
-        padding: 2rem 0;
-    }
+/* #faq section */
 
-    #faq hr {
-        color: var(--light-gray);
-        margin: 2rem 0;
-    }
+#faq h2 {
+    padding: 2rem 0;
+}
 
-    #faq p {
-        font-weight: bold;
-    }
+#faq hr {
+    color: var(--light-gray);
+    margin: 2rem 0;
+}
 
-    #faq i {
-        padding-right: 3rem;
-    }
+#faq p {
+    font-weight: bold;
+}
 
-    /* POSSIBLE BONUS WORK ON #FAQ */
-    /* .answer-1,
-    .answer-2,
-    .answer-3 {
-        display: none;
-    }
+#faq i {
+    padding-right: 3rem;
+}
 
-    #faq div:first-child i:first-child,
-    #faq div:nth-of-type(2) i:first-child,
-    #faq div:last-child i:first-child {
-        display: inline-block;
-    }
+/* POSSIBLE BONUS WORK ON #FAQ */
+/* .answer-1,
+.answer-2,
+.answer-3 {
+    display: none;
+}
 
-    #faq div:first-child i:last-child,
-    #faq div:nth-of-type(2) i:last-child,
-    #faq div:last-child i:last-child {
-        display: none;
-    }
+#faq div:first-child i:first-child,
+#faq div:nth-of-type(2) i:first-child,
+#faq div:last-child i:first-child {
+    display: inline-block;
+}
 
-    #faq div:first-child:hover .answer-1{
-        display: inline-block;
-    }
+#faq div:first-child i:last-child,
+#faq div:nth-of-type(2) i:last-child,
+#faq div:last-child i:last-child {
+    display: none;
+}
 
-    #faq div:first-child:hover #faq div:first-child i:first-child {
-        display: none;
-    }
+#faq div:first-child:hover .answer-1{
+    display: inline-block;
+}
 
-    #faq div:first-child:hover #faq div:first-child i:last-child {
-        display: inline-block;
-    } */
+#faq div:first-child:hover #faq div:first-child i:first-child {
+    display: none;
+}
+
+#faq div:first-child:hover #faq div:first-child i:last-child {
+    display: inline-block;
+} */
+
+
 
 /* FOOTER */
 
